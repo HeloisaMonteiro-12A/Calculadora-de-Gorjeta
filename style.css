@@ -19,7 +19,7 @@
     --mint: #76B486;
     --fern-green: #568259;
     --hunter-green: #4E6850;
-    --outer-space: #464E47;
+    --outer-space: #273d2a;
 
     --white: #FFFFFF;
     --squeeze: #F3F9FA;
@@ -45,7 +45,6 @@ header {
     display: flex;
     justify-content: center;
 }
-
 
 main {
     background-color: var(--white);
@@ -133,5 +132,40 @@ main {
                 outline: 2px solid var(--celadon);
             }
         }
+    }
+}
+
+.results{
+    background: var(--outer-space);
+    border-radius: 1.5rem;
+    padding: 4rem 2.4rem 2.4rem;
+
+    .amount,
+    .total{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2.4rem;
+
+        p{
+            color: var(--white);
+
+            span{color: var(--mint);
+            font-size: 1.3rem;}
+        }
+
+        strong{
+            color: var(--celadon);
+            font-size: 3.2rem;
+        }
+    }
+
+    button{
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        background: var(--celadon);
+        color: var(--outer-space);
     }
 }
