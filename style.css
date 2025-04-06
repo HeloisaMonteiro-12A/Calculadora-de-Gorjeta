@@ -120,7 +120,7 @@ main {
         }
 
         .button-selected {
-            background-color: var(--celadon);
+            background: var(--celadon);
         }
 
         input{
